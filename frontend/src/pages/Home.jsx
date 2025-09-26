@@ -24,7 +24,7 @@ function Home() {
 
   const fetchProducts = async () => {
     try {
-      const url = 'login-auth-mern-server.vercel.app';
+      const url = 'login-auth-mern-server.vercel.app/products';
       const response = await fetch(url, {
         method: 'GET',
         headers: {
